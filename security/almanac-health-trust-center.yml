@@ -1,0 +1,20 @@
+generated: '2026-07-18'
+method: searched
+source: https://trust.almanac.chat
+url: https://trust.almanac.chat
+provider: Vanta
+verified: true
+certifications: []
+note: >-
+  Almanac Health operates a public Trust Center hosted on Vanta at trust.almanac.chat. The page
+  and its data endpoints render entirely client-side (JavaScript SPA served from assets.vanta.com),
+  so specific named certifications/attestations (e.g. SOC 2, HIPAA) could not be machine-verified
+  from the raw response and are intentionally left empty rather than asserted. The trust center's
+  existence is confirmed; certifications should be re-harvested when a server-rendered or JSON
+  surface is available.
+evidence:
+- source: https://trust.almanac.chat
+  keywords:
+  - trust center
+  - security
+  - compliance

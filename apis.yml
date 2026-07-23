@@ -1,8 +1,15 @@
 aid: almanac-health
 name: Almanac Health
-description: Almanac Health is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Almanac Health is a clinical AI company building a research-validated clinical decision support
+  platform, delivered as Almanac Chat, that brings specialist-grade, evidence-based answers to
+  clinicians at the point of care. Founded by physician-researcher Cyril Zakka, MD, the platform is
+  designed to work within existing electronic health record (EHR) workflows, is governed by
+  institutional controls, and is grounded in peer-reviewed research rather than pharmaceutical
+  promotion. In April 2026 the company raised a $10 million seed round led by F-Prime with
+  participation from General Catalyst and Lightspeed Venture Partners. This API Evangelist profile
+  currently tracks the company's public web, trust, and security surface; Almanac Health does not
+  publish a public developer API, OpenAPI specification, or SDKs at this time.
 url: https://raw.githubusercontent.com/api-evangelist/almanac-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +17,59 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://almanac.chat/images/almanac-symbol.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Healthcare
+- Clinical AI
+- Artificial Intelligence
+- Clinical Decision Support
+- Medical
+- EHR
+- Health Tech
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: DomainSecurity
+  url: security/almanac-health-domain-security.yml
+- type: Website
+  url: https://almanac.chat/
+- type: SignUp
+  url: https://almanac.chat/login
+- type: Login
+  url: https://almanac.chat/login
+- type: Blog
+  url: https://almanac.chat/news
+- type: TrustCenter
+  url: https://trust.almanac.chat
+- type: TermsOfService
+  url: https://almanac.chat/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://almanac.chat/legal/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/almanachealth
+- type: Twitter
+  url: https://x.com/almanac_health
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

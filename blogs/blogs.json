@@ -1,0 +1,14 @@
+{
+  "repo": "almanac-health",
+  "feeds": [
+    {
+      "source": "https://almanac.chat/login",
+      "feed_url": "https://almanac.chat/login",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-20T13:31:34Z"
+}
