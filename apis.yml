@@ -1,15 +1,14 @@
 aid: almanac-health
 name: Almanac Health
-description: >-
-  Almanac Health is a clinical AI company building a research-validated clinical decision support
-  platform, delivered as Almanac Chat, that brings specialist-grade, evidence-based answers to
-  clinicians at the point of care. Founded by physician-researcher Cyril Zakka, MD, the platform is
-  designed to work within existing electronic health record (EHR) workflows, is governed by
-  institutional controls, and is grounded in peer-reviewed research rather than pharmaceutical
-  promotion. In April 2026 the company raised a $10 million seed round led by F-Prime with
-  participation from General Catalyst and Lightspeed Venture Partners. This API Evangelist profile
-  currently tracks the company's public web, trust, and security surface; Almanac Health does not
-  publish a public developer API, OpenAPI specification, or SDKs at this time.
+description: Almanac Health is a clinical AI company building a research-validated clinical decision support
+  platform, delivered as Almanac Chat, that brings specialist-grade, evidence-based answers to clinicians
+  at the point of care. Founded by physician-researcher Cyril Zakka, MD, the platform is designed to work
+  within existing electronic health record (EHR) workflows, is governed by institutional controls, and
+  is grounded in peer-reviewed research rather than pharmaceutical promotion. In April 2026 the company
+  raised a $10 million seed round led by F-Prime with participation from General Catalyst and Lightspeed
+  Venture Partners. This API Evangelist profile currently tracks the company's public web, trust, and
+  security surface; Almanac Health does not publish a public developer API, OpenAPI specification, or
+  SDKs at this time.
 url: https://raw.githubusercontent.com/api-evangelist/almanac-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -68,6 +67,16 @@ common:
   url: https://www.linkedin.com/company/almanachealth
 - type: Twitter
   url: https://x.com/almanac_health
+- type: DomainSecurity
+  url: security/almanac-health-domain-security.yml
+- type: Website
+  url: https://almanac.chat
+- type: GitHubOrganization
+  url: https://github.com/almanac-health
+- type: Careers
+  url: https://almanac.chat/careers
+- type: DomainSecurity
+  url: security/almanac-health-domain-security.yml
 x-enrichment:
   date: '2026-07-19'
   status: backfilled
